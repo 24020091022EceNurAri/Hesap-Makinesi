@@ -1,4 +1,10 @@
-
+//bir ürün olcak ürünün adı fiyat özelliği olacak,kdv uygula diye bir operasyonu olcak,3 tane ürün türü olacak tekstil-cep telefonu ürünleri-ekmek ürünleri,
+//tekstil ürünleri kumaş türü-beden-ürteici firma özellikleri olacak
+//ceptelefonu özellik ve marka adında iki özelliği olacak
+//ekmek ise ekmek türü ve gramaj olmak üzere 2 tane özelliği olacak
+//sepet uygulaması yap ve sepete bu ürünlerden her birinden bir adet ürün ekle ve
+//bu eklediğimiz üç ürünün kdvsini topla ve ekrana yazdır
+//kdv default %20,tekstil %10,cep telefonu %18,ekmekte %0
 package TestApp;
 import java.lang.Math;
 /**
@@ -17,7 +23,6 @@ public class Test extends javax.swing.JFrame {
     double b;
     double sonuc;
     String op;
-    String cevap;
   
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
@@ -385,7 +390,7 @@ public class Test extends javax.swing.JFrame {
 
     private void jEsittirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jEsittirActionPerformed
         if(!jSonucEkrani.getText().contains(".")){
-            
+           
         }
             jSonucEkrani.setText(jSonucEkrani.getText()+jEsittir.getText());
     }//GEN-LAST:event_jEsittirActionPerformed
